@@ -18,11 +18,12 @@ def main():
     Service_cherges=float(input("Enter the Service charges"))
     Hospital_medication_charges=float(input("Enter the Hospital Medicattion charges"))
     print("Total bill:",inpatients(number_of_days,daily_rate,Service_cherges,Hospital_medication_charges))
+#     in case choice is 2 then the Out patients menu options will be Displayed to the User
  elif Choices==2:
      print("Out-Patients Programme")
      Service_cherges=float(input("Enter the Service Charges(Lab test etc..)"))
      Hospital_medication_charges=float(input("Enter the Hospital medication Services"))
      print("Total Bill:",outpatient(Service_cherges,Hospital_medication_charges))
-    
+#   Evoking the Main fuction such that it can display the Infor.
 main()
     
